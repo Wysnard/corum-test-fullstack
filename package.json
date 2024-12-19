@@ -1,0 +1,11 @@
+{
+  "name": "corum-fullstack",
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
